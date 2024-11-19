@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <title>Formulario de Autoevaluacion</title>
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/src/main/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/main/explanation.html"
+              >¿De qué trata un TFG?</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/main/normativa.html">Normativa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/main/convocatorias.html"
+              >Convocatorias</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/main/memorias.html"
+              >Ejemplo de Memorias</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/main/form.html"
+              >Formulario de Autoevaluación</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/main/aboutUs.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">¿Cuánto sabes sobre el TFG?</h2>
+      <form>
+        <div class="form-group">
+          <label for="pregunta1"
+            >¿Qué tienes que hacer antes de presentarte a la defensa del
+            TFG?</label
+          ><br />
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta1"
+              id="respuesta1a"
+              value="Matricular el TFG, Subir la documentación, Escoger fecha para la
+              defensa"
+              required
+            />
+            <label class="form-check-label" for="respuesta1a">
+              Matricular el TFG, Subir la documentación, Escoger fecha para la
+              defensa
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta1"
+              id="respuesta1b"
+              value="Matricular el TFG, Escoger cualquier fecha para la defensa"
+            />
+            <label class="form-check-label" for="respuesta1b">
+              Matricular el TFG, Escoger cualquier fecha para la defensa
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta1"
+              id="respuesta1c"
+              value="Presentarte el TFG ante el decano, Escoger fecha para la defensa"
+            />
+            <label class="form-check-label" for="respuesta1c">
+              Presentarte el TFG ante el decano, Escoger fecha para la defensa
+            </label>
+          </div>
+          <br />
+
+          <label for="pregunta2"
+            >¿Cuál es el mínimo de créditos necesarios para defender el
+            TFG?</label
+          ><br />
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta2"
+              id="respuesta2a"
+              value="A falta de 3 asignaturas por aprobar (210 créditos)"
+              required
+            />
+            <label class="form-check-label" for="respuesta1a">
+              A falta de 3 asignaturas por aprobar (210 créditos)
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta2"
+              id="respuesta2b"
+              value="Todas los créditos anteriores conseguidos (228 créditos)"
+            />
+            <label class="form-check-label" for="respuesta1b">
+              Todas los créditos anteriores conseguidos (228 créditos)
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta2"
+              id="respuesta2c"
+              value="A falta de 3 optativas por aprobar (210 créditos)"
+            />
+            <label class="form-check-label" for="respuesta1c">
+              A falta de 3 optativas por aprobar (210 créditos)
+            </label>
+          </div>
+          <br />
+
+          <label for="pregunta3"
+            >¿Cuál de estos no es un articulo de la normativa sobre el
+            TFG?</label
+          ><br />
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta3"
+              id="respuesta3a"
+              value="Objetivos"
+              required
+            />
+            <label class="form-check-label" for="respuesta1a">
+              Objetivos
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta3"
+              id="respuesta3b"
+              value="Resolucion de preguntas"
+            />
+            <label class="form-check-label" for="respuesta1b">
+              Resolucion de preguntas
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta3"
+              id="respuesta3c"
+              value="Inscripcion y convocatorias"
+            />
+            <label class="form-check-label" for="respuesta1c">
+              Inscripcion y convocatorias
+            </label>
+          </div>
+          <br />
+
+          <label for="pregunta4">¿Cuál es el objetivo del TFG?</label><br />
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta4"
+              id="respuesta4a"
+              value="Conseguir trabajo y aplicar el conocimiento adquirido en mi dia a
+              dia"
+              required
+            />
+            <label class="form-check-label" for="respuesta1a">
+              Conseguir trabajo y aplicar el conocimiento adquirido en mi dia a
+              dia
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta4"
+              id="respuesta4b"
+              value="Graduarte"
+            />
+            <label class="form-check-label" for="respuesta1b">
+              Graduarte
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta4"
+              id="respuesta4c"
+              value="Que consolides lo que sabes y lo apliques en un proyecto original,
+              relacionado con tu carrera"
+            />
+            <label class="form-check-label" for="respuesta1c">
+              Que consolides lo que sabes y lo apliques en un proyecto original,
+              relacionado con tu carrera
+            </label>
+          </div>
+          <br />
+
+          <label for="pregunta5">¿Quién se encarga de decidir tu nota?</label
+          ><br />
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta5"
+              id="respuesta5a"
+              value="El tribunal de validación"
+              required
+            />
+            <label class="form-check-label" for="respuesta1a">
+              El tribunal de validación
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta5"
+              id="respuesta5b"
+              value="El tribunal de evaluación"
+            />
+            <label class="form-check-label" for="respuesta1b">
+              El tribunal de evaluación
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta5"
+              id="respuesta5c"
+              value="El profesor que te ha ayudado a hacer el TFG"
+            />
+            <label class="form-check-label" for="respuesta1c">
+              El profesor que te ha ayudado a hacer el TFG
+            </label>
+          </div>
+          <br />
+
+          <label for="pregunta6"
+            >¿Es la mejor pagina que existe para buscar información sobre el
+            TFG?</label
+          ><br />
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta6"
+              id="respuesta6a"
+              value="Si"
+              required
+            />
+            <label class="form-check-label" for="respuesta1a"> Si </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta6"
+              id="respuesta6b"
+              value="Sin duda alguna"
+            />
+            <label class="form-check-label" for="respuesta1b">
+              Sin duda alguna
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta6"
+              id="respuesta6c"
+              value="No me he enterado de nada, pero si que lo es"
+            />
+            <label class="form-check-label" for="respuesta1c">
+              No me he enterado de nada, pero si que lo es
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </body>
+  <br />
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Trabajo 3.º de Carrera Ingeniería Informática UPV/EHU</p>
+    <p class="mb-0">Asignatura - Interacción Persona Computador (IPC)</p>
+  </footer>
+</html>
