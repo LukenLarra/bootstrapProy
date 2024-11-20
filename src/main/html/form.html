@@ -11,7 +11,9 @@
     />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/confeti.js"></script>
 
     <title>Formulario de Autoevaluacion</title>
   </head>
@@ -78,7 +80,7 @@
 
           <div class="form-check">
             <input
-              class="form-check-input"
+              class="form-check-input correct-answer"
               type="radio"
               name="respuesta1"
               id="respuesta1a"
@@ -153,7 +155,7 @@
 
           <div class="form-check">
             <input
-              class="form-check-input"
+              class="form-check-input correct-answer"
               type="radio"
               name="respuesta2"
               id="respuesta2c"
@@ -186,7 +188,7 @@
 
           <div class="form-check">
             <input
-              class="form-check-input"
+              class="form-check-input correct-answer"
               type="radio"
               name="respuesta3"
               id="respuesta3b"
@@ -244,7 +246,7 @@
 
           <div class="form-check">
             <input
-              class="form-check-input"
+              class="form-check-input correct-answer"
               type="radio"
               name="respuesta4"
               id="respuesta4c"
@@ -277,7 +279,7 @@
 
           <div class="form-check">
             <input
-              class="form-check-input"
+              class="form-check-input correct-answer"
               type="radio"
               name="respuesta5"
               id="respuesta5b"
@@ -321,7 +323,7 @@
 
           <div class="form-check">
             <input
-              class="form-check-input"
+              class="form-check-input correct-answer"
               type="radio"
               name="respuesta6"
               id="respuesta6b"
@@ -346,7 +348,7 @@
           </div>
         </div>
 
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="button" class="btn btn-primary btn-check">Comprobar Respuestas</button>
       </form>
     </div>
   </body>
