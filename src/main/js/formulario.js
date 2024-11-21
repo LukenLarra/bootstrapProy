@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
             colorOptions(checkboxes);
             triggerConfetti();
         } else if (!anyChecked) {
-            alert('Selecciona todas las opciones por favor');
+            const alertParagraph = document.getElementById('alerta');
+            alertParagraph.textContent = 'Selecciona todas las opciones por favor';
         } else {
             colorOptions(checkboxes);
         }
