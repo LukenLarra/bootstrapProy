@@ -6,6 +6,9 @@ const port = 3000;
 
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/resources', express.static(path.join(__dirname, 'src/resources')));
+app.use('/css', express.static(path.join(__dirname, 'src/main/css')));
+app.use('/js', express.static(path.join(__dirname, 'src/main/js')));
 
 // Route to serve the index.html file
 app.get('/', (req, res) => {
