@@ -27,3 +27,13 @@
       color: black !important;
   }
 
+  body{
+    background-color: lightgrey;
+  }
+
+  .container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
