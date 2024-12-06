@@ -50,10 +50,10 @@ function displayResults(correctCount, results) {
 
     // Create result message based on the number of correct answers
     let resultMessage = '';
-    if (correctCount >= 4) {
+    if (correctCount >= 5) {
         resultMessage = `¡Felicidades! Has acertado ${correctCount} preguntas. Estás bastante informado sobre el tema. <b>MUCHA SUERTE.</b>`;
         triggerConfetti();
-    } else if (correctCount >= 2) {
+    } else if (correctCount >= 3) {
         resultMessage = `Has acertado ${correctCount} preguntas. Algo has leído, pero vuélvetelo a mirar por si acaso.`;
     } else {
         resultMessage = `Has acertado ${correctCount} preguntas. Anda ponte a leer o vete a hacer algo productivo.`;
