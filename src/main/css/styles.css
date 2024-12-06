@@ -47,6 +47,28 @@ body {
     margin: 20px auto;
 }
 
+.list-group-item {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+}
+h3 i{
+   color: black;
+   padding-right: 5px;
+}
+
+li i {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .nav-link {
     color: black !important;
     text-decoration: none;
