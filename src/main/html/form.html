@@ -15,18 +15,18 @@
     <script src="../js/main.js"></script>
     <script src="../js/formulario.js"></script>
 
-    <title>Formulario de Autoevaluacion</title>
+    <title>Formulario de Autoevaluación</title>
   </head>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
       <button
-              class="navbar-toggler border-dark"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+        class="navbar-toggler border-dark"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -70,34 +70,27 @@
         segunda te entra algo. 👀
       </p>
       <hr class="badge-danger" style="height: 2px" />
-      <h2 class="text-center text-capitalize">
-        ¿De que trata el formulario de autoevaluación?
-      </h2>
-      <br />
-      <ul>
-        <li>Número de preguntas: 6</li>
-        <li>Opciones en cada pregunta: 3 (2 incorrectas, 1 acertada)</li>
-      </ul>
+
+      <!-- Primer apartado -->
+      <div class="p-3 bg-light rounded shadow">
+        <h2 class="text-danger text-center">¿De qué trata el formulario de autoevaluación?</h2>
+        <ul>
+          <li>Número de preguntas: 6</li>
+          <li>Opciones en cada pregunta: 3 (2 incorrectas, 1 acertada)</li>
+        </ul>
+      </div>
+
       <hr class="badge-danger" style="height: 2px" />
-      <h2 class="text-center mb-4 text-capitalize">
-        ¿Cuánto sabes sobre el TFG?
-      </h2>
-      <form id="tfgForm">
-        <div class="form-group px-3">
+
+      <!-- Segundo apartado -->
+      <div class="p-3 bg-light rounded shadow">
+        <h2 class="text-danger text-center">¿Cuánto sabes sobre el TFG?</h2>
+        <form id="tfgForm">
+          <div class="form-group px-3">
             <label for="pregunta1">¿Qué tienes que hacer antes de presentarte a la defensa del TFG?</label><br />
-    
             <div class="form-check">
-                <input
-                    class="form-check-input"
-                    type="radio"
-                    name="respuesta1"
-                    id="respuesta1a"
-                    value="Matricular el TFG, Subir la documentación, Escoger fecha para la defensa"
-                    required
-                />
-                <label class="form-check-label" for="respuesta1a">
-                    Matricular el TFG, Subir la documentación, Escoger fecha para la defensa
-                </label>
+              <input class="form-check-input" type="radio" name="respuesta1" id="respuesta1a" value="Matricular el TFG, Subir la documentación, Escoger fecha para la defensa" required />
+              <label class="form-check-label" for="respuesta1a">Matricular el TFG, Subir la documentación, Escoger fecha para la defensa</label>
             </div>
     
             <div class="form-check">

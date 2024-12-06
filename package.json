@@ -8,10 +8,11 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
+    "bootstrapproy": "file:",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "^3.1.10",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "http-errors": "~1.6.3",
     "http-server": "^14.1.1",
     "morgan": "~1.9.1",
