@@ -94,3 +94,15 @@ li i {
     transform: scale(1.05);
 }
 
+.img-uniform{
+    max-height: 400px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tfg-wrapper{
+    min-height: 600px;
+}
+
